@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Vital-Bliss College</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="container nav-container">
+            <div class="logo">
+                <img src="assets/logos/logo.jpg" alt="Vital-Bliss College Logo"
+                    style="height: 60px; width: auto; margin-right: 10px;">
+                <div>
+                    <span class="text-primary">VITAL-BLISS</span><br>
+                    <small class="text-dark" style="font-size: 0.7rem; font-weight: 400;">COLLEGE OF HEALTH
+                        SCIENCES</small>
+                </div>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About & Provost</a></li>
+                    <li><a href="courses.html" class="nav-link">Courses</a></li>
+                    <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                    <li><a href="contact.html" class="btn btn-primary">Apply Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- PAGE HEADER -->
+    <section style="background-color: var(--primary-blue); color: white; padding: 120px 0 60px; text-align: center;">
+        <div class="container">
+            <h1 style="font-size: 2.5rem;">Contact Us</h1>
+            <p>We'd love to hear from you. Get in touch today!</p>
+        </div>
+    </section>
+
+    <!-- CONTACT CONTENT -->
+    <section style="padding: 80px 0;">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 50px;">
+
+                <!-- Contact Info -->
+                <div>
+                    <h2 class="text-primary" style="margin-bottom: 25px;">Get In Touch</h2>
+                    <div style="display: flex; margin-bottom: 20px;">
+                        <div
+                            style="min-width: 50px; height: 50px; background: var(--off-white); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px;">
+                            <i class="fas fa-map-marker-alt text-accent fa-lg"></i>
+                        </div>
+                        <div>
+                            <h4 style="margin-bottom: 5px;">Our Location</h4>
+                            <p class="text-light">Sunmade Junction, Iroko Town,<br>Via Bible College Bus-Stop,<br>Lagos
+                                State, Nigeria.</p>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; margin-bottom: 20px;">
+                        <div
+                            style="min-width: 50px; height: 50px; background: var(--off-white); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px;">
+                            <i class="fas fa-phone text-accent fa-lg"></i>
+                        </div>
+                        <div>
+                            <h4 style="margin-bottom: 5px;">Phone Number</h4>
+                            <p class="text-light">08168975142, 08028756823</p>
+                            <p class="text-light" style="margin-top: 5px;">
+                                <i class="fab fa-whatsapp text-accent" style="margin-right: 5px;"></i>
+                                <a href="https://wa.me/2349115608483" target="_blank">09115608483</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; margin-bottom: 20px;">
+                        <div
+                            style="min-width: 50px; height: 50px; background: var(--off-white); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px;">
+                            <i class="fas fa-envelope text-accent fa-lg"></i>
+                        </div>
+                        <div>
+                            <h4 style="margin-bottom: 5px;">Email Address</h4>
+                            <p class="text-light">vitalblisscollegeoftech@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Inquiry Form -->
+                <div style="background: white; padding: 40px; border-radius: 10px; box-shadow: var(--shadow-lg);">
+                    <h2 class="text-primary" style="margin-bottom: 20px;">Send an Inquiry</h2>
+                    <!-- 
+                        NOTE: To make this send properly to your email without opening the user's mail app, 
+                        you can sign up for a free account at https://formspree.io/ 
+                        and replace the action URL below with your Formspree ID.
+                        For now, I've set it to 'mailto' which opens the user's email app.
+                    -->
+                    <form action="mailto:vitalblisscollegeoftech@gmail.com" method="POST" enctype="text/plain">
+                        <div style="margin-bottom: 20px;">
+                            <label style="display: block; margin-bottom: 8px; font-weight: 500;">Full Name <span
+                                    class="text-accent">*</span></label>
+                            <input type="text" name="name" required placeholder="John Doe"
+                                style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px; outline: none;">
+                        </div>
+                        <div style="margin-bottom: 20px;">
+                            <label style="display: block; margin-bottom: 8px; font-weight: 500;">Phone Number <span
+                                    class="text-accent">*</span></label>
+                            <input type="tel" name="phone" required placeholder="+234..."
+                                style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px; outline: none;">
+                        </div>
+                        <div style="margin-bottom: 20px;">
+                            <label style="display: block; margin-bottom: 8px; font-weight: 500;">Course of
+                                Interest <span class="text-accent">*</span></label>
+                            <select name="course" required
+                                style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px; outline: none;">
+                                <option value="">Select a course...</option>
+                                <option value="Environmental Health">Environmental Health</option>
+                                <option value="Community Health">Community Health</option>
+                                <option value="Public Health">Public Health</option>
+                                <option value="Healthcare Assistant">Healthcare Assistant</option>
+                                <option value="Occupational Health and Safety">Occupational Health and Safety</option>
+                                <option value="Caregiver">Caregiver</option>
+                                <option value="Family Planning">Family Planning</option>
+                            </select>
+                        </div>
+                        <div style="margin-bottom: 20px;">
+                            <label style="display: block; margin-bottom: 8px; font-weight: 500;">Message <span
+                                    class="text-accent">*</span></label>
+                            <textarea name="message" rows="4" required placeholder="How can we help you?"
+                                style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px; outline: none;"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background-color: #111; color: #ccc; padding: 60px 0 20px;">
+        <div class="container text-center">
+            <p>&copy; 2026 Vital-Bliss College of Health Sciences and Technology.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

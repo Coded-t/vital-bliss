@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vitalblisscollege.com/sitemap.xml
